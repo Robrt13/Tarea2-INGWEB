@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo HTML</title>
+</head>
+<body>
+  <header>
+    <h1>Currículo HTML</h1>
+    <nav>
+      <a href="index.html">Home|</a>
+      <a href="MiBiografia_SAmpie.html#sobre-mi">Sobre mí|</a>
+      <a href="MiBiografia_SAmpie.html#mis-libros">Mis libros favoritos|</a>
+      <a href="MiBiografia_SAmpie.html#mis-peliculas">Mis películas favoritas|</a>
+      <a href="MiBiografia_SAmpie.html#canciones-favoritas">Canciones favoritas|</a>
+      <a href="tema.html">Tema libre|</a>
+      <a href="Curriculo.html">Datos generales</a>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="datos-generales">
+      <h2 id="datos-generales">Datos Generales</h2>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Información personal</legend>
+
+          <div>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+          </div>
+
+          <div>
+            <label for="apellido">Apellido</label><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+          </div>
+
+          <div>
+            <label for="cedula">Cédula</label><br>
+            <input type="text" id="cedula" name="cedula" placeholder="Ej.: 8-888-888" required>
+          </div>
+
+          <div>
+            <label for="telefono">Teléfono</label><br>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ej.: 6000-0000" required>
+          </div>
+
+          <div>
+            <label for="fecha_nac">Fecha de nacimiento</label><br>
+            <input type="date" id="fecha_nac" name="fecha_nac" required>
+          </div>
+
+          <div>
+            <label for="sexo">Sexo</label><br>
+            <select id="sexo" name="sexo" required>
+              <option value="" selected disabled>Seleccione…</option>
+              <option value="M">Masculino</option>
+              <option value="F">Femenino</option>
+              <option value="O">Otro / Prefiero no decir</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Dirección</legend>
+
+          <div>
+            <label for="direccion">Dirección</label><br>
+            <textarea id="direccion" name="direccion" rows="3" placeholder="Calle, edificio, apartamento" required></textarea>
+          </div>
+
+          <div>
+            <label for="corregimiento">Corregimiento</label><br>
+            <input type="text" id="corregimiento" name="corregimiento" required>
+          </div>
+
+          <div>
+            <label for="provincia">Provincia</label><br>
+            <input type="text" id="provincia" name="provincia" required>
+          </div>
+
+          <div>
+            <label for="pais">País</label><br>
+            <input type="text" id="pais" name="pais" value="Panamá" required>
+          </div>
+        </fieldset>
+
+        <div>
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Steven Ampie — Ingeniería Web - UTP</p>
+  </footer>
+</body>
+</html>

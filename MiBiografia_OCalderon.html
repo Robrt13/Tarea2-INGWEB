@@ -1,136 +1,208 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <title>MiBiografia_OCalderon</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografía — Ovidio Calderón</title>
 </head>
-
 <body>
-
+  <header>
     <h1>Ovidio Calderón</h1>
+    <nav>
+      <a href="index.html">Home|</a>
+      <a href="#sobre-mi">Sobre mí|</a>
+      <a href="#mis-libros">Mis libros favoritos|</a>
+      <a href="#mis-peliculas">Mis películas favoritas|</a>
+      <a href="#canciones-favoritas">Canciones favoritas|</a>
+      <a href="tema.html">Tema libre|</a>
+      <a href="Curriculo.html">Datos generales</a>
+    </nav>
+  </header>
 
-    <p>Soy estudiante de Ingeniería Web en la Universidad Tecnológica de Panamá. Me apasiona construir sitios accesibles
-        y claros usando HTML puro, y estoy empezando a explorar JavaScript y buenas prácticas de desarrollo.</p>
-    <p>Me gusta trabajar en equipo, aprender cosas nuevas y participar en proyectos que tengan impacto real.</p>
+  <main>
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" aria-labelledby="hdr-sobre-mi">
+      <h2 id="hdr-sobre-mi">Sobre mí</h2>
 
-    <h2>Mi foto</h2>
-    <img src="imagenes/ovidio.PNG" alt="Foto de Ovidio Calderón" width="250">
+      <article>
+        <h3>Presentación</h3>
+        <p>Soy estudiante de Ingeniería Web en la Universidad Tecnológica de Panamá. Me apasiona construir sitios accesibles y claros usando HTML semántico, y estoy empezando a explorar JavaScript y buenas prácticas de desarrollo. Disfruto el trabajo en equipo, aprender cosas nuevas y participar en proyectos con impacto real.</p>
+        <video width="480" height="270" controls>
+          <source src="videos/Ovidio-video.mp4" type="video/mp4">
+          Tu navegador no soporta el video HTML5.
+        </video>
+      </article>
 
-    <p>Mi sitio favorito es <a href="https://pointerpointer.com" target="_blank">pointerpointer</a> porque es un sitio
-        muy interesante y divertido para pasar un rato.</p>
+      <article>
+        <h3>Mis cualidades</h3>
+        <dl>
+          <dt>Responsable</dt>
+          <dd>Organizo mis tareas y cumplo fechas de entrega.</dd>
+          <dt>Curioso</dt>
+          <dd>Investigo cómo funcionan las cosas y pregunto por qué.</dd>
+          <dt>Colaborador</dt>
+          <dd>Apoyo al equipo y valoro la comunicación clara.</dd>
+          <dt>Persistente</dt>
+          <dd>Busco soluciones y no me rindo ante los errores.</dd>
+          <dt>Creativo</dt>
+          <dd>Propongo ideas nuevas para mejorar los proyectos.</dd>
+        </dl>
+      </article>
 
-    <h2>Mis libros favoritos</h2>
-    <ol>
-        <li>Fullmetal Alchemist — Hiromu Arakawa</li>
-        <li>Harry Potter y la piedra filosofal — J.K. Rowling</li>
-        <li>Harry Potter y la cámara secreta — J.K. Rowling</li>
-        <li>Hábitos atómicos — James Clear</li>
-        <li>Percy Jackson y el ladrón del rayo — Rick Riordan</li>
-        <li>Y luego ganamos nosotros — Mr. Jagger</li>
-    </ol>
+      <article>
+        <h3>Mis pasatiempos</h3>
+        <ul>
+          <li>Leer y anotar ideas</li>
+          <li>Jugar videojuegos</li>
+          <li>Escuchar música</li>
+          <li>Pasar tiempo con mis amigos</li>
+        </ul>
+      </article>
 
-    <h2>Mis pasatiempos</h2>
-    <ul>
-        <li>Leer y anotar ideas</li>
-        <li>Jugar videojuegos</li>
-        <li>Escuchar música</li>
-        <li>Pasar tiempo con mis amigos</li>
-    </ul>
+      <article>
+        <h3>Mi sitio favorito</h3>
+        <p>Me gusta <a href="https://pointerpointer.com" target="_blank" rel="noopener">pointerpointer</a> por lo original e interactivo de su propuesta.</p>
+      </article>
 
-    <h2>Mis cualidades</h2>
-    <dl>
-        <dt>Responsable</dt>
-        <dd>Organizo mis tareas y cumplo fechas de entrega.</dd>
-        <dt>Curioso</dt>
-        <dd>Me gusta investigar cómo funcionan las cosas.</dd>
-        <dt>Colaborador</dt>
-        <dd>Disfruto trabajar con otras personas y apoyar al equipo.</dd>
-        <dt>Persistente</dt>
-        <dd>No me rindo hasta encontrar una solución.</dd>
-        <dt>Creativo</dt>
-        <dd>Propongo ideas nuevas para mejorar proyectos.</dd>
-    </dl>
+      <article>
+        <h3>Mi foto</h3>
+        <figure>
+          <img src="imagenes/ovidio.PNG" alt="Foto de Ovidio Calderón" width="250">
+          <figcaption>Ovidio Calderón</figcaption>
+        </figure>
+      </article>
+    </section>
 
-    <h2>Películas favoritas</h2>
-    <ul>
-        <li>
-            <h3>Acción</h3>
-            <ul>
-                <li>Die Hard</li>
-                <li>John Wick</li>
-                <li>Snake Eyes</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Animación</h3>
-            <ul>
-                <li>Spider-Verse</li>
-                <li>K-Pop Demon Hunters</li>
-                <li>El viaje de Chihiro</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Ciencia ficción</h3>
-            <ul>
-                <li>Interestelar</li>
-                <li>Blade Runner 2049</li>
-                <li>Back to the Future</li>
-            </ul>
-        </li>
-    </ul>
+    <!-- LIBROS -->
+    <section id="mis-libros" aria-labelledby="hdr-libros">
+      <h2 id="hdr-libros">Mis libros favoritos</h2>
 
-    <h2>Mis canciones favoritas</h2>
-    <table border="1">
-        <tr>
+      <article>
+        <h3>Fullmetal Alchemist</h3>
+        <p><strong>Autor:</strong> Hiromu Arakawa</p>
+        <p><strong>Resumen:</strong> Dos hermanos alquimistas buscan la piedra filosofal para recuperar sus cuerpos tras un experimento fallido, enfrentándose a dilemas éticos y políticos.</p>
+        <figure>
+          <img src="imagenes/fullmetal_alchemist.jpg" alt="Portada de Fullmetal Alchemist" width="180">
+        </figure>
+      </article>
+
+      <article>
+        <h3>Hábitos atómicos</h3>
+        <p><strong>Autor:</strong> James Clear</p>
+        <p><strong>Resumen:</strong> Guía práctica para construir hábitos positivos y eliminar los negativos mediante mejoras pequeñas y constantes.</p>
+        <figure>
+          <img src="imagenes/habitos_atomicos.jpg" alt="Portada de Hábitos Atómicos" width="180">
+        </figure>
+      </article>
+
+      <article>
+        <h3>Percy Jackson y el ladrón del rayo</h3>
+        <p><strong>Autor:</strong> Rick Riordan</p>
+        <p><strong>Resumen:</strong> Un adolescente descubre que es hijo de un dios griego y emprende una misión para recuperar el rayo de Zeus.</p>
+        <figure>
+          <img src="imagenes/percy_jackson_ladron_rayo.jpg" alt="Portada de Percy Jackson y el ladrón del rayo" width="180">
+        </figure>
+      </article>
+
+      <article>
+        <h3>Harry Potter y la piedra filosofal</h3>
+        <p><strong>Autor:</strong> J.K. Rowling</p>
+        <p><strong>Resumen:</strong> El joven mago Harry descubre su identidad y comienza su vida en Hogwarts enfrentando su primer gran reto.</p>
+        <figure>
+          <img src="imagenes/harry_potter_piedra.jpg" alt="Portada de Harry Potter y la piedra filosofal" width="180">
+        </figure>
+      </article>
+
+      <article>
+        <h3>Dune</h3>
+        <p><strong>Autor:</strong> Frank Herbert</p>
+        <p><strong>Resumen:</strong> En el planeta desértico Arrakis, Paul Atreides se enfrenta a intrigas políticas y religiosas en torno a la especia melange, un recurso vital. La obra explora temas de ecología, poder y destino.</p>
+        <figure>
+          <img src="imagenes/portada_dune.jpg" alt="Portada de Dune" width="180">
+        </figure>
+      </article>
+    </section>
+
+    <!-- PELICULAS -->
+    <section id="mis-peliculas" aria-labelledby="hdr-peliculas">
+      <h2 id="hdr-peliculas">Mis películas favoritas</h2>
+
+      <article>
+        <h3>Blade Runner 2049</h3>
+        <p><strong>Director:</strong> Denis Villeneuve</p>
+        <p><strong>Protagonistas:</strong> Ryan Gosling, Harrison Ford, Ana de Armas</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gCcx85zbxz4" title="Trailer Blade Runner 2049" frameborder="0" allowfullscreen></iframe>
+      </article>
+
+      <article>
+        <h3>Volver al Futuro</h3>
+        <p><strong>Director:</strong> Robert Zemeckis</p>
+        <p><strong>Protagonistas:</strong> Michael J. Fox, Christopher Lloyd, Lea Thompson</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qvsgGtivCgs" title="Trailer Volver al Futuro" frameborder="0" allowfullscreen></iframe>
+      </article>
+
+      <article>
+        <h3>John Wick</h3>
+        <p><strong>Director:</strong> Chad Stahelski</p>
+        <p><strong>Protagonistas:</strong> Keanu Reeves, Michael Nyqvist, Alfie Allen</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2AUmvWm5ZDQ" title="Trailer John Wick" frameborder="0" allowfullscreen></iframe>
+      </article>
+    </section>
+
+    <!-- CANCIONES -->
+    <section id="canciones-favoritas" aria-labelledby="hdr-canciones">
+      <h2 id="hdr-canciones">Mis canciones favoritas</h2>
+      <table>
+        <thead>
+          <tr>
             <th>Canción</th>
             <th>Género</th>
             <th>Cantante/Grupo</th>
             <th>Álbum</th>
             <th>Año</th>
-        </tr>
-        <tr>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td>Descartable</td>
             <td>Rock en español</td>
             <td>Wos</td>
             <td>Descartable</td>
             <td>2024</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Mona Lisa</td>
             <td>R&B/Soul</td>
             <td>Dominic Fike</td>
             <td>Sunburn</td>
             <td>2023</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Back Pocket</td>
             <td>Funk</td>
             <td>Vulfpeck</td>
             <td>Thrill of the Arts</td>
             <td>2015</td>
-        </tr>
-    </table>
+          </tr>
+        </tbody>
+      </table>
 
-    <h2>Mi video</h2>
-    <video width="360" height="240" controls>
-        <source src="videos/Ovidio-video.mp4" type="video/mp4">
-    </video>
-
-    <h2>Mi canción favorita</h2>
-    <audio controls>
-        <source src="audios/SpotiDownloader.com - Mona Lisa (Spider-Man_ Across the Spider-Verse) - Dominic Fike.mp3"
-            type="audio/mpeg">
+      <h3>Mi canción favorita</h3>
+      <audio controls>
+        <source src="audios/SpotiDownloader.com - Mona Lisa (Spider-Man_ Across the Spider-Verse) - Dominic Fike.mp3" type="audio/mpeg">
         Tu navegador no soporta la etiqueta de audio.
-    </audio>
+      </audio>
+    </section>
 
+    <!-- YOUTUBE EXTRA -->
+    <section aria-labelledby="hdr-youtube">
+      <h2 id="hdr-youtube">Mi youtuber favorito (YouTube)</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q0rsdXZTBx0" title="Video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+  </main>
 
-    <h2>Mi youtuber favorito (YouTube)</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q0rsdXZTBx0"></iframe>
-
-    <p><a href="index.html">Volver a la página principal</a></p>
-
-
+  <footer>
+    <p>© 2025 Ovidio Calderón — Ingeniería Web - UTP</p>
+  </footer>
 </body>
-
 </html>
